@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply p-4
+  }
+}
+@layer components {
+  .ilus {
+    @apply 
+  }
+}
+ body {
+            /* background-color: #8EC5FC;
+            background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+            min-height: 100vh;
+            background-size: 200%;
+            animation: gd 3s infinite alternate; */
+        }
+
+        @keyframes gd {
+            0% {
+                background-position: left;
+            }
+
+            100% {
+                background-position: right;
+            }
+        }
+
+.card-hidden{
+  visibility: hidden;
+  height: 0;
+}
+
+.hiddenn{
+  visibility: hidden;
+}
