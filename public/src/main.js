@@ -6,7 +6,7 @@ document.querySelector('[aria-label="toggle"]').addEventListener('click', functi
             sun.classList.remove("hidden")
 });
 // hambuger
-document.querySelector('[aria-label="btn-nav"]').addEventListener('click', function() {
+document.querySelector('[aria-label="btn-nav"]').addEventListener('click', ()=> {
            let nav = document.getElementById("navbar-default")
            nav.classList.toggle("hidden")
 });
