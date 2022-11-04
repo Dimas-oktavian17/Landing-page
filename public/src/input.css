@@ -4,12 +4,7 @@
 
 @layer components {
   .container {
-    @apply p-4
-  }
-}
-@layer components {
-  .ilus {
-    @apply 
+    @apply max-w-5xl mx-auto py-8;
   }
 }
  body {

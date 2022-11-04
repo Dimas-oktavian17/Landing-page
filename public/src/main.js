@@ -1,14 +1,7 @@
-document.addEventListener('click', function(){
-    document.querySelector('.crd').classList.add("card-hidden")  
-})
-document.addEventListener('click', function(){
-    document.querySelector('.page-1').classList.remove("hiddenn")  
-})
-
-document.addEventListener('click', function(){
-    document.querySelector('.page-2').classList.remove("hiddenn")  
-})
-
-document.querySelector('.toggle').addEventListener('click', function() {
+let sun  = document.getElementById("sun");
+let moon= document.getElementById("moon");
+document.querySelector('[aria-label="toggle"]').addEventListener('click', function() {
             document.documentElement.classList.toggle('dark');
+            moon.classList.add("hidden")
+            sun.classList.remove("hidden")
 });
